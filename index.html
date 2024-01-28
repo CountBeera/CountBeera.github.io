@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Beera's Website</title>
     <style>
         #hi{
@@ -43,12 +44,25 @@
         nav a:hover {
             background-color: #555;
         }
-        footer{
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        
+        .copy {
+            font-size: 14px;
+        }
+        /* footer{
             position: absolute;
             color: #f4f4f4;
             background-color: black ;
             padding: 0.5px;
-        }
+        } */
         #photo{
             margin-top: 50px;
             position: center;
@@ -62,6 +76,30 @@
         }
         #hi{
             color: rgb(0, 255, 17);
+        }
+        .plug ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .plug ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .plug a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .plug i {
+            font-size: 30px;
+            transition: color 0.3s ease;
+        }
+        
+        .plug i:hover {
+            color: #3498db;
         }
         
     
@@ -93,12 +131,42 @@
 
         </p>
     </main>
-
     <footer>
+        <div class="copy">
+            Copyright &copy; 2024 - Joel Abhishek Beera
+        </div>
+        <div class="plug">
+            <ul>
+                <li><a href="https://github.com/countbeera"><i class="fa fa-github" style="font-size: 30px;"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/joel-abhishek-732a9a255/"><i class="fa fa-linkedin-square"
+                            style="font-size: 30px;"></i></a></li>
+                <!-- <li><a href="https://www.instagram.com/yuvan_shankar_s_a/"><i class="fa fa-instagram"
+                            style="font-size: 30px;"></i></a></li> -->
+                <li><a href="mailto:joelabhishek1974@gmail.com"><i class="fa fa-envelope"
+                            style="font-size: 30px;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- <footer>
 
         <p>&copy; 2024 Joel Abhishek Beera. All Rights Reserved.</p>
 
-    </footer> 
+    
+    <div class="plug">
+        <ul>
+            <li><a href="https://github.com/yuvan-codes"><i class="fa fa-github" style="font-size: 30px;"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/yuvan-shankar-s-a-bb65132a4/"><i class="fa fa-linkedin-square"
+                        style="font-size: 30px;"></i></a></li>
+            <li><a href="https://www.instagram.com/yuvan_shankar_s_a/"><i class="fa fa-instagram"
+                        style="font-size: 30px;"></i></a></li>
+            <li><a href="mailto:yuvanshankar.sa@gmail.com"><i class="fa fa-envelope"
+                        style="font-size: 30px;"></i></a></li>
+        </ul>
+    </div>
+</footer>  -->
     
 </body>
 </html>
